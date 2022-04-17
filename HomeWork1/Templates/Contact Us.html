@@ -24,11 +24,14 @@
             <div class="left"></div>
             <div class="right">
                 <h2>Contect Us</h2>
-                    <input type="text" class="field" placeholder="First Name">
-                    <input type="text" class="field" placeholder="Last Name">
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input placeholder="Your Birthdate" class="field" type="text" onfocus="(this.type='date')" id="date">
                     <input type="email" class="field" placeholder="Your Email">
-                    <input type="text" class="field" placeholder="Your Phone">
+                    <input type="phone" class="field" placeholder="Your Phone">
                     <textarea class="field area" placeholder="Message"></textarea>
+                    <label for="gender" class="field2">Gender:</label>
+                    <input type="radio" name="gender" class="field2" value="Male"> Male
+                    <input type="radio" name="gender" class="field2" value="Female"> Female
                     <button class="btn">Send</button>
             </div>
         </div>

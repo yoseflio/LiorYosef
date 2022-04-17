@@ -83,6 +83,12 @@ h2:after{
     transition: .3s;
 }
 
+.field2{
+    padding: 0.5rem 1rem;
+    font-size: 1.1 rem;
+    margin-bottom: 13px;
+}
+
 .field:hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -93,7 +99,7 @@ h2:after{
 }
 
 .area{
-    min-height: 150px;
+    min-height: 100px;
 }
 
 .btn{
