@@ -1,0 +1,63 @@
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../Static/Style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand&display=swap">
+        <script defer src="../Static/JS.js"></script>
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <nav class="main" id="main">
+            <div class="logo">
+                <img src="../Static/49249627694a443897a7486482582a06.png">
+            </div>
+            <h3>Welcome to Web Course</h3>
+            <ul>
+                <li><a href="../Tamplets/Home Page.html">Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>About</a></li>
+                <li><a>Gallery</a></li>
+                <li><a href="../Tamplets/Contact Us.html">Contact Us</a></li>
+            </ul>
+
+        <div class="container">
+            <header class="ageCalc">
+                <p id="resultBday">Your Age:</p>
+            </header>
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h2>Contect Us</h2>
+                        <input type="text" class="field" placeholder="Your Name">
+                        <input placeholder="Your Birthdate" class="field" type="text" onfocus="(this.type='date')" id="date" onchange="submitBday()">
+                        <input type="email" class="field" placeholder="Your Email">
+                        <input type="phone" class="field" placeholder="Your Phone">
+                        <textarea class="field area" placeholder="Message"></textarea>
+                        <label for="gender" class="field2">Gender:</label>
+                        <input type="radio" name="gender" class="field2" value="Male"> Male
+                        <input type="radio" name="gender" class="field2" value="Female"> Female
+                        <button class="btn" id="submit">Send</button>
+                </div>
+            </div>
+            <div class="bird-container bird-container--one">
+                <div class="bird bird--one"></div>
+            </div>
+        
+            <div class="bird-container bird-container--two">
+                <div class="bird bird--two"></div>
+            </div>
+        
+            <div class="bird-container bird-container--three">
+                <div class="bird bird--three"></div>
+            </div>
+        
+            <div class="bird-container bird-container--four">
+                <div class="bird bird--four"></div>
+            </div>
+        </div>
+    </nav>   
+    </body>
+    </html>
